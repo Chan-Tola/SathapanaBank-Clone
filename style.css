@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;700&display=swap');
+/* all stuff that we need in web */
+html {
+    /* 62.5 of 16px == 10px */
+    font-size: 62.5%;
+}
+body {
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "Helvetica Neue LT Pro, Open Sans", sans-serif;
+    background-color: #E9EFF0;
+    font-weight: 700;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,li,em {
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+h2,h3,h4,h5 {
+    font-size: 3rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* all stuff that we need in web */
+.main-navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/* top navigation */
+.top-nav {
+    background-color:#093B7D;
+    position:sticky;
+    top: 0%;
+}
+ul{
+    list-style-type: none;
+}
+a,span, .option-lag{
+    text-decoration: none;
+    font-size: 12px;
+}
+/* em style logo bank */
+em {
+    font-family: 'Dancing Script', cursive;
+    color: goldenrod;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* nav list main  */
+.nav-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+}
+/* nav left and right */
+.nav-list .nav-left , .nav-right {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    align-items: center;
+}
+/* style */
+.nav-left .nav-link {
+    display: flex;
+    align-items: center;
+}
+.nav-left .nav-link > a {
+    color: #E9EFF0;
+}
+.nav-right .nav-link > a  {
+    color: #E9EFF0;
+}
+.nav-left .nav-link > a:hover {
+    text-decoration: underline;
+}
+.nav-right .nav-link > a:hover {
+    text-decoration: underline;
+}
+/* Done style */
+/* middle line */
+.mid-line {
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+/* op flag */
+.option-lag {
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #093B7D;
+}
+/* Done of op-flag */
+
+/* carousel trasfer money */
+.carousel {
+    width: 30rem;
+}
+.caro-image {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    width: 2rem;
+}
+.caro-image img {
+    width: 100%;
+}
+.caro-image .caro-text {
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
+/* Done */
+
+/* navigation bar */
+.navigation {
+    width: 100%;
+    background-color: hsla(214, 87%, 26%,0);
+    backdrop-filter: blur(0px);
+    position: absolute;
+    top: 6rem;
+}
+.main-nav {
+    margin: 0 auto;
+    max-width: 67%;
+    align-items: center;
+}
+/* logo class */
+.nav-logo {
+    gap: 1rem;
+}
+/* title logo using tag span */
+.nav-logo .title-logo {
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+/* style hovwer with back drop not yet */
+.navigation:hover  {
+    background-color: white;
+}
+.navigation  li {
+    padding: 2rem;
+    color: white;
+}
+.navigation  .nav-link:hover {
+    background-color: #025B9F;
+}
+.navigation  li:hover .c-anime {
+    color: white;
+}
+/* c-anime new class for tag a */
+.c-anime {
+    color: none;
+}
+/* Done c-anime */
+/* text change color */
+.navigation:hover span{
+    color: #093B7D;
+}
+.navigation:hover a {
+    color: #093B7D;
+}
+.navigation:hover .icon-toggler {
+    color: #025B9F;
+}
+/* End of text change */
+
+/* Done Hover style done */
+
+/* navigation bar drop down */
+.dropdown-1 {
+    /* dark dis-none pros derm kom oy see pic jg pel hover terb see */
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 60;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 3rem 0;
+}
+.dropdown-1 > li > a {
+    font-weight: bold;
+    font-size: 10rem;
+}
+.dropdown-1 li  a:hover {
+    text-decoration: underline;
+}
+.dropdown-1 .drop-img {
+    width: 25rem;
+    height: 16rem;
+}
+
+/* after hover see dropdown */
+.nav-link:hover .dropdown-1 {
+    display: block;
+    transition: all .5s ease;
+}   
+/* class for drop-down between Pic and Title */
+.drop-down-all-using-with-span {
+    display: flex; 
+    gap: 1.5rem;
+}
+/* class for drop-down Image */
+.drop-down-using-all > span > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* class  for tag title */
+.drop-down-all-using-with-title {
+    font-size: 20px; 
+    font-weight: bold;
+}
+/* class for ul */
+.drop-down-all-using-with-ul li { 
+    padding: 1rem 2rem;
+    height: 3.4rem;
+}
+
+/* Done navigation bar drop down */
+
+
+/* icon for small device */
+.icon-toggler {
+    display: none;
+}
+.list-small-screen {
+    color: #093b7d;
+    font-size: 1.8rem; 
+    font-weight: bold;
+}
+.list-small-screen:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+.scroll-class {
+    overflow: scroll;
+}
+/* end of small device */
+/* navigation done */
+
+/* change-img​ with bootstrap 5  */
+.c-width {
+    width: 100%;
+}
+/* Done */
+
+/* section hero */
+.hero{
+    width: 100%;
+    background-image: url("IMG Src/PIC Src/backgound-hero.jpg");
+}
+/* mid-icon */
+.mid-icon {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: .5rem;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    position: relative;
+    margin-top: -70px;
+    border-radius: 20px;
+}
+.mid-icon .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-icon li a p {
+    margin-top: 2rem;
+    line-height: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #3D86C6;
+}
+.mid-icon li a:hover p {
+    color: #444a50;
+}
+/* hero-section1 icon midd DONE */
+/* hero title */
+.hero-text {
+    line-height: 5rem;
+}
+.hero-text span {
+    font-size: 40; 
+    font-family: 700;
+    color: white;
+}
+.hero-text p {
+    font-size: 18px;
+    color: white;
+}
+/* end of hero title */
+
+/* row padding in hero-section */
+.hero .col-4 , .col-6 {
+    left: 0;
+    height: 30vh;
+    line-height: 4rem;
+    text-align: center;
+}
+.col-4 a , .col-6 a {
+    color: white;
+}
+.hero .col-4 img {
+    height: 80%;
+    width: 90%;
+}
+.col-6 img {
+    width: 90%;
+    height: 80%;
+}
+/* end section hero */
+.promo {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 5rem 0 2rem 0;
+}
+.promo img {
+    border-radius: 30px;
+    width: 40%;
+}
+::-webkit-scrollbar {
+    height: 5px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
+    background: #5CA9DD;
+}
+::-webkit-scrollbar-thumb {
+    background: #5CA9DD;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #093b7d;
+}
+.button-text {
+    margin-left: -22rem;
+    border-radius: 30px;
+    padding-top: 1rem;
+    width: 20rem;
+    height: 5rem;
+    text-align: center;
+    background-color: #C9341D;
+    color: white;
+    font-size: 14px;
+    border: none;
+    font-weight: 700;
+}
+/* footer */
+.footer-logo img {
+    height: 100%;
+}
+.footer-media {
+    width: 25rem;
+}
+.ft-col-1 {
+    /* class brer in ul in footer */
+    padding-top: 2rem;
+}
+.ft-col-1-size-font-span {
+    /* class font span in footer */
+    font-size: 1.5rem; font-weight: bold; color: #093B7D;
+    transition: all .5s ease-in-out;
+}
+.ft-col-1-size-font {
+    /* class tag p in footer */
+    font-size: 14px; 
+    color: white;
+    transition: all .5s ease;
+}
+.ft-col-1-size-font:hover {
+    text-decoration: underline;
+    color: #444a50;
+}
+.ft-img {
+    height: 100px;
+}
+.input-footer {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+.search-footer input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.button-search { 
+    padding: 0 1rem;
+    border-radius: 5px;
+    background-color: #C9341D;
+}
+.end-class {
+    text-align: center; 
+    border-top: .2rem solid white;
+}
+/* responsive place */
+/* small device */
+@media screen and (max-width: 834px) {
+    .main-navigation {
+        width: 100%;
+    }
+    .main-navigation .top-nav , .navigation {
+        width: 100%;
+    }
+    .main-navigation .top-nav .nav-left {
+        display: none;
+    }
+    .main-navigation .top-nav .nav-right .nav-link {
+        display: none;
+    }
+    .main-navigation .top-nav .nav-right .carousel {
+        padding-left: 8rem;
+    }
+    .navigation .main-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navigation .main-nav .nav-logo {
+        width: 40%;
+    }
+    .navigation .main-nav .nav-logo .img-logo {
+        width: 100%;
+    }
+    .navigation .main-nav .icon-toggler{
+        display: block;
+    }
+    .navigation .main-nav .nav-list {
+        display: none;
+    }
+    .navigation .offcanvas {
+        display: block;
+    }
+    /* navigation all have done but not yet click and have search yet */
+    /* hero section 1 */
+    .hero {
+        width: 100%;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+    .top-hero{
+        height: 50vh;
+    }
+    .top-hero img {
+        height: 300px;
+    }
+    .top-hero .carousel-indicators {
+        top: 28rem;
+    }
+    .buttom-hero {
+        width: 100%;
+    }
+    .buttom-hero .mid-icon {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .buttom-hero .mid-icon .icon img {
+        width: 4rem;
+    }
+    .buttom-hero .mid-icon .icon li {
+        height: 5rem;
+    }
+    .buttom-hero .mid-icon .icon li a p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .buttom-hero .container .row .col-4 , .col-6{
+        width: 100%;
+    }
+    /* end hero section 1 */
+    /* hero section 2  */
+    .container-fluid {
+        width: 100%;
+    }
+    .container .row .col-8 {
+        padding-left: 20rem;
+    }
+    .container .row .col-8 img {
+        width: 375px;
+    }
+    .container-fluid .container .row .col-4 .hero-text {
+        padding-left: 30rem;
+        display: none;
+    }
+    .container-fluid .container .row .col-4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .res-scroll {
+        overflow-x: scroll;
+    }
+    .res-scroll .res-scroll1 {
+        width: 400px;
+    }
+    .res-scroll .res-scroll1 img {
+        width: 100%;
+    }
+
+    .container-fluid .container .promo img {
+        width: 100%;
+    }
+    /* footer */
+    .res-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .res-width {
+        width: 100%;
+    }
+    .res-width .ft-col-1-size-font-span {
+        font-size: 12px;
+    }
+    .res-width .ft-col-1-size-font {
+        font-size: 10px;
+    }
+    .right-footer {
+        order: 2;
+        flex-direction: column;
+    }
+    .input-footer {
+        display: flex;
+        flex-direction: column;
+        gap: .2rem;
+    }
+    .text-footer h2 {
+        padding-left: 9rem;
+        font-size: 1.7rem;
+    }
+    .search-footer {
+        padding-left: 4rem;
+    }
+    .left-footer {
+        order: 1;
+        width: 100%;
+    }
+    .footer-media , .footer-logo {
+        align-items: center;
+        width: 78%;
+        padding-left: 8rem;
+        padding-bottom: 1rem;
+    }
+    /* hero section 2 end */
+}

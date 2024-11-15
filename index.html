@@ -1,0 +1,745 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Sathapana Bank Project.Com</title>
+    <script src="https://kit.fontawesome.com/edbf662727.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="IMG Src/Logo Src/LOGO-1.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-navigation">
+    <!-- Top - Navigation -->
+    <nav class="top-nav">
+        <ul class="nav-list">
+            <!-- navigation left -->
+            <div class="nav-left">
+                <li class="nav-link"><em>Premier</em></li>
+                <li class="nav-link"><a href="#">Personal Banking</a></li>
+                <li class="nav-link"><a href="#">Business iBanking</a></li>
+                <!-- middle line class -->
+                <div class="mid-line"> | </div>
+            </div>
+            <!-- Done of nav-left -->
+
+            <!-- navigation right -->
+            <div class="nav-right">
+                <li class="nav-link"><a href="#">About Us</a></li>
+                <li class="nav-link"><a href="#">Help Center</a></li>
+
+                <!-- option language -->
+                <select  class="option-lag">
+                    <option class="opt" value="EN">EN</option>
+                    <option class="opt" value="KH">KH</option>
+                    <option class="opt" value="Jp">JP</option>
+                </select>
+                <!-- End of op-lag -->
+
+                <!-- carousel class -->
+
+                <!-- <section class="carousel "> -->
+                    <!-- using bootstrap 5 -->
+                        <div id="carouselExampleSlidesOnly" class="carousel slid res-class" data-bs-ride="carousel" data-bs-interval="2000">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <span class="caro-image">
+                                    <!-- usa -->
+                                    <img  src="IMG Src/Logo Src/usaflag.webp">
+                                    <span class="caro-text">USD/CNY</span>
+                                    <span class="caro-text">7.742</span>
+                                    <img height="6" style="margin-top: 5px;" src="IMG Src/Logo Src/sathapana-header-green-arrow.webp" alt="">
+                                    <span class="caro-text">7.742</span>
+                                    <img height="6" style="margin-top: 6px;" src="IMG Src/Logo Src/sathapana-header-red-arrow.webp" alt="">
+                                </span>
+                            </div>
+                            <div class="carousel-item ">
+                                <span class="caro-image">
+                                    <!-- khmer -->
+                                    <img src="IMG Src/Logo Src/Khmer flag.webp">
+                                    <span class="caro-text">USD/KHR</span>
+                                    <span class="caro-text">4142</span>
+                                    <img height="6" style="margin-top: 5px;" src="IMG Src/Logo Src/sathapana-header-green-arrow.webp" alt="">
+                                    <span class="caro-text">4145</span>
+                                    <img height="6" style="margin-top: 6px;" src="IMG Src/Logo Src/sathapana-header-red-arrow.webp" alt="">
+                                </span>
+                            </div>
+                            <div class="carousel-item">
+                                <span class="caro-image">
+                                    <!-- japan -->
+                                    <img src="IMG Src/Logo Src/JP.webp">
+                                    <span class="caro-text">USD/JP</span>
+                                    <span class="caro-text">0.77</span>
+                                    <img height="6" style="margin-top: 5px;" src="IMG Src/Logo Src/sathapana-header-green-arrow.webp" alt="">
+                                    <span class="caro-text">0.51</span>
+                                    <img height="6" style="margin-top: 6px;" src="IMG Src/Logo Src/sathapana-header-red-arrow.webp" alt="">
+                                </span>
+                            </div>
+                            </div>
+                        </div>
+                <!-- </section> -->
+                <!-- end of carousel class money -->
+            </div>
+            <!-- Done of nav-right -->
+        </ul>
+    </nav>
+    <!-- end of  Top - Navigation -->
+        <!-- navigation bar -->
+        <nav class="navigation">
+            <div class="main-nav center">
+                <!-- main class -->
+                <div class="nav-logo center">
+                    <!-- clas logo -->
+                    <span class="img-logo"><img height="45px" src="IMG Src/Logo Src/LOGO-1.webp" alt=""></span>
+                    <span class="title-logo">ធនាគារ  <br> <p style="font-size: 12px;">SATHAPANA</p> </span>
+                    <span class="title-logo">ស្ថាបនា  <br> <p style="font-size: 12px;"> BANK</p></span> <br>
+                </div>
+                <!-- end icon for small screen -->
+                <!-- icon for small screen -->
+                    <div class="icon-toggler">
+                        <i class="fa-solid fa-bars-staggered fa-2x" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
+                    </div>
+                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+                    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header bg-light">
+                            <div class="input-group input-group-lg" style="width: 65%; margin-left: 14%;">
+                                <!-- <span class="input-group-text" id="inputGroup-sizing-lg">Large</span> -->
+                                <input type="text" class="form-control p-4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                            </div>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
+                        </div>
+                        <div class="offcanvas-body bg-light scroll-class">
+                                <li><em>Premier</em></li>
+                                
+                                <li><a class="list-small-screen" href="#">Personal <i class="fa-solid fa-angle-down" style="margin-left: 62%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Business <i class="fa-solid fa-angle-down" style="margin-left: 61%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Digital Banking <i class="fa-solid fa-angle-down" style="margin-left: 46%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Women In Business <i class="fa-solid fa-angle-down" style="margin-left: 34%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Promotion <i class="fa-solid fa-angle-down" style="margin-left: 58%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">News <i class="fa-solid fa-angle-down" style="margin-left: 71%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Business iBanking <i class="fa-solid fa-angle-down" style="margin-left: 36%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">About Us <i class="fa-solid fa-angle-down" style="margin-left: 61%;"></i></a></li>
+                                <li><a class="list-small-screen" href="#">Help Center <i class="fa-solid fa-angle-down" style="margin-left: 55%;"></i></a></li>
+                        </div>                       
+                        
+                    </div>
+                <!-- list with drop down -->
+                <ul class="nav-list nav-left nav-anime" style="gap: 5.5rem;">
+                    <!-- class list -->
+                    <li class="nav-link">
+                        <a class="c-anime" href="#">Personal</a>
+                        <!-- drop down -->
+                        <div class="dropdown-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-3" style=" padding-left: 70px;">
+                                        <span>
+                                            <img class="drop-img" src="/IMG Src/PIC Src/drop-(1).webp" alt="">
+                                        </span>
+                                    </div>
+                                    <!-- colum ti 1 -->
+                                    <div class="col-3">
+                                        <!-- text ti 1 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(1).png" alt=""><a class="drop-down-all-using-with-title" href="#">Deposits</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Current Account</a></li>
+                                            <li><a href="#">Current Plus Account</a></li>
+                                            <li><a href="#">Saving Account</a></li>
+                                            <li><a href="#">Smart Saving Account</a></li>
+                                            <li><a href="#">Term Deposit With Top-up Option</a></li>
+                                            <li><a href="#">Group Saving Plan</a></li>
+                                            <li><a href="#">Foreign Currency Account</a></li>
+                                        </ul>
+                                        </div>
+                                        <!-- text ti 2 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(4).png" alt=""><a class="drop-down-all-using-with-title" href="#">Life Insurance</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Life of Insurance Solutions with Manulife</a></li>
+                                            </ul>
+                                        </div>
+                                        <br><br><br><br>
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(6).png" alt=""><a class="drop-down-all-using-with-title" href="#">Banking With Us</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Express Banking Services</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- colum ti 2 -->
+                                    <div class="col-3">
+                                        <!-- text ti 1 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(2).png" alt=""><a class="drop-down-all-using-with-title" href="#">Loans</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Auto Loan</a></li>
+                                            <li><a href="#">Flexi Housing Loan</a></li>
+                                            <li><a href="#">Personal Loan</a></li>
+                                            <li><a href="#">Personal Loan (No Collateral)</a></li>
+                                            <li><a href="#">Flexi Lending</a></li>
+                                            <li><a href="#">Flexi Housing Loan Partnership</a></li>
+                                            <li><a href="#">EasyCash Lending Program</a></li>
+                                            <li><a href="#">Flash Loan Program</a></li>
+                                            <li><a href="#">Loan Calculator</a></li>
+                                        </ul>
+                                        </div>
+                                        <!-- text ti 2 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(5).png" alt=""><a class="drop-down-all-using-with-title" href="#">Services</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Service Remittance</a></li>
+                                            <li><a href="#">Fund Transfer via Western Union</a></li>
+                                            <li><a href="#">Tax Collection Service</a></li>
+                                            <li><a href="#">General Department</a></li>
+                                            <li><a href="#">Ministry of labor and Vocational Training</a></li>
+                                            <li><a href="#">Special Account Number</a></li>
+                                            <li><a href="#">Bill Collection</a></li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <!-- text ti 1 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(3).png" alt=""><a class="drop-down-all-using-with-title" href="#">Cards</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Visa Debit Card</a></li>
+                                            <li><a href="#">Sathapana Debit Mastercard</a></li>
+                                            <li><a href="#">Visa Credit Card</a></li>
+                                            <li><a href="#">Virtual Card</a></li>
+                                            <li><a href="#">Visa Corporate Credit Card</a></li>
+                                            <li><a href="#">Sathapana Neary Credit Card</a></li>
+                                            <li><a href="#">Sathapana Credit Card Program</a></li>
+                                            <li><a href="#">Security Tips</a></li>
+                                        </ul>
+                                        </div>
+                                        <!-- text ti 2 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(6).png" alt=""><a class="drop-down-all-using-with-title" href="#">Finance Tools</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Savings Calculator</a></li>
+                                            <li><a href="#">Term Deposit Calculator</a></li>
+                                            <li><a href="#">Loan Calculator</a></li>
+                                            <li><a href="#">Exchange Rate</a></li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a class="c-anime" href="#">Business</a>
+                            <!-- drop down 2 -->
+                                <div class="dropdown-1">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-3" style=" padding-left: 70px;">
+                                                <span>
+                                                    <img class="drop-img" src="/IMG Src/PIC Src/drop(3).webp" alt="">
+                                                </span>
+                                            </div>
+                                            <!-- colum ti 1 -->
+                                            <div class="col-3">
+                                                <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(1).png" alt=""><a class="drop-down-all-using-with-title" href="#">Deposits</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Current Account</a></li>
+                                                <li><a href="#">MoneyPlus Saving Account</a></li>
+                                                <li><a href="#">Current Plus Corporate Account</a></li>
+                                                <li><a href="#">Corporate Savings Account</a></li>
+                                                <li><a href="#">Term Deposit Account</a></li>
+                                                <li><a href="#">Foreign Currency Account</a></li>
+                                                <li><a href="#">Pension Fund Account</a></li>
+                                            </ul>
+                                            </div>
+                                            <!-- text ti 2 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(5).png" alt=""><a class="drop-down-all-using-with-title" href="#">Services</a></span>
+                                                <ul class="drop-down-all-using-with-ul">
+                                                    <li><a href="#">Remittance</a></li>
+                                                    <li><a href="#">Fund Transfer vis Western Union</a></li>
+                                                    <li><a href="#">POS Terminal Service</a></li>
+                                                    <li><a href="#">VISA B2B Connect</a></li>
+                                                </ul>
+                                            </div>
+                                            </div>
+                                            <!-- colum ti 2 -->
+                                            <div class="col-3">
+                                            <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(2).png" alt=""><a class="drop-down-all-using-with-title" href="#">Loans</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Overdraft Loan</a></li>
+                                                <li><a href="#">Sathapana Business Loan</a></li>
+                                                <li><a href="#">Revolving Credit</a></li>
+                                                <li><a href="#">Business Installment Loan Program</a></li>
+                                                <li><a href="#">Women In Business Program</a></li>
+                                                <li><a href="#">Loan Calculator</a></li>
+                                            </ul>
+                                            </div>
+                                            <!-- text ti 2 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(5).png" alt=""><a class="drop-down-all-using-with-title" href="#">Banking with Us</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Express Banking Service</a></li>
+                                            </ul>
+                                                </div>
+                                            </div>
+                                            <!-- colum ti 3 -->
+                                            <div class="col-3">
+                                            <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(3).png" alt=""><a class="drop-down-all-using-with-title" href="#">Card Management</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Payment</a></li>
+                                                <li><a href="#">Collection</a></li>
+                                                <li><a href="#">Liquidity Management</a></li>
+                                                <li><a href="#">Delivery Channel</a></li>
+                                                <li><a href="#">Sathapana Payroll Package Program</a></li>
+                                            </ul>
+                                            </div>
+                                            <!-- text ti 2 -->
+                                            <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(6).png" alt=""><a class="drop-down-all-using-with-title" href="#">Finance Tools</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Trade Finance</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a class="c-anime" href="#">Digital Banking</a>
+                            <!-- drop down 3 -->
+                            <div class="dropdown-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3" style=" padding-left: 70px;">
+                                            <span>
+                                                <img class="drop-img" src="/IMG Src/PIC Src/drop(2)jpg (1).webp" alt="">
+                                            </span>
+                                        </div>
+                                        <!-- colum ti 1 -->
+                                        <div class="col-3">
+                                            <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(1).png" alt=""><a class="drop-down-all-using-with-title" href="#">Personal</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Sathapana Mobile</a></li>
+                                                <li><a href="#">Sathapana Rewards</a></li>
+                                                <li><a href="#">How to Pay</a></li>
+                                                <li><a href="#">Security Tips</a></li>
+                                            </ul>
+                                            </div>                                    
+                                        </div>
+                                        <div class="col-3">
+                                            <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(2).png" alt=""><a class="drop-down-all-using-with-title" href="#">Business</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">Mobile</a></li>
+                                                <li><a href="#">Security Tips</a></li>
+                                                <li><a href="#">Sathapana ePayroll</a></li>
+                                                <li><a href="#">Sathapana Gateway</a></li>
+                                                <li><a href="#">Sathapana Connect</a></li>
+                                                <li><a href="#">S2Biz</a></li>
+                                                <li><a href="#">Sathapana Tutort</a></li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                        <!-- text ti 1 -->
+                                            <div class="drop-down-using-all">
+                                                <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(3).png" alt=""><a class="drop-down-all-using-with-title" href="#">Express Banking</a></span>
+                                            <ul class="drop-down-all-using-with-ul">
+                                                <li><a href="#">ATM Service</a></li>
+                                            </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </li>
+                    <!-- don't have information -->
+                    <li class="nav-link"><a class="c-anime" href="#">Women In Business</a></li>
+                    <li class="nav-link">
+                        <a class="c-anime" href="#">Promotion</a>
+                        <!-- colum ti 5 -->
+                        <div class="dropdown-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-3" style=" padding-left: 70px;">
+                                        <span>
+                                            <img class="drop-img" src="/IMG Src/PIC Src/drop(5).webp" alt="">
+                                        </span>
+                                    </div>
+                                    <!-- colum ti 1 -->
+                                    <div class="col-3">
+                                        <!-- text ti 1 -->
+                                        <div class="drop-down-using-all">
+                                            <span class="drop-down-all-using-with-span"><img src="IMG Src/Logo Src/drop(7).png" alt=""><a class="drop-down-all-using-with-title" href="#">Sathapana Products</a></span>
+                                        <ul class="drop-down-all-using-with-ul">
+                                            <li><a href="#">Sathapana Cards</a></li>
+                                            <li><a href="#">Recommended Offers</a></li>
+                                        </ul>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- don't have information -->
+                    <li class="nav-link"><a class="c-anime" href="#">News</a></li>
+                    <!-- class icon search -->
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #717171;" id="search-icon"></i>
+                        <input style=" border-radius: 30px; border: none; padding: .6rem 1rem; position: absolute; top: 70; right: 18%; width: 30rem; display: none;" id="search"  type="text" placeholder="search">
+                    </li>
+                </ul>
+                <!-- Done list -->
+            </div>
+        </nav>
+        <!-- navigation bar Done -->
+</div>
+<!-- done  -->
+
+    <!-- hero section1 -->
+    <div class="hero">
+        <!-- in hero section vea have two class -->
+        <div class="top-hero">
+            <!-- first class -->
+                <!-- using bootstrap -->
+            <div id="carouselExampleIndicators" class="carousel slide c-width" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="3000" >
+                <div class="carousel-indicators" style="bottom: 70;">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item  active">
+                        <img src="IMG Src/PIC Src/change-img2.jpg"  class="d-block w-100">
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img  src="IMG Src/PIC Src/change-img1.jpg" class="d-block w-100" >
+                    </div>
+                    <div class="carousel-item c-item">
+                        <img src="IMG Src/PIC Src/change-img4.webp" class="d-block w-100" >
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- change img section done -->
+        </div>
+        <!-- done class first -->
+        <div class="buttom-hero">
+            <!-- second class  -->
+
+            <!-- classs icon hero middle -->
+                <div class="mid-icon">
+                    <span class="icon">
+                        <img src="IMG Src/Logo Src/bank.png">
+                        <li style="list-style-type: none;" ><a href="#"><p>OPEN ACCOUNT</p></a></li>
+                    </span>
+                    <span class="icon">
+                        <img src="IMG Src/Logo Src/loan.png">
+                        <li style="list-style-type: none;" ><a href="#"><p>APPLY LOAN</p></a></li>
+                    </span>
+                    <span class="icon">
+                        <img src="IMG Src/Logo Src/credit-card.png">
+                        <li style="list-style-type: none;"><a href="#"><p>SATHAPANA CARDS</p></a></li>
+                    </span>
+                    <span class="icon">
+                        <img src="IMG Src/Logo Src/digital-banking.png">
+                        <li style="list-style-type: none;" ><a href="#"><p>DIGITAL BANKING</p></a></li>
+                    </span>
+                    <span class="icon">
+                        <img src="IMG Src/Logo Src/price-tag.png">
+                        <li style="list-style-type: none;" ><a href="#"><p>SPECIAL OFFER</p></a></li>
+                    </span>
+                </div>
+                <!-- done middle icon hero -->
+
+            <!-- class text after middle icon hero -->
+                <div class="container">
+                    <div class="hero-text">
+                        <span>EVERYDAY</span><span> BANKING</span><span style="color: rgb(96, 163, 230);"> CONVENIENCE</span>
+                        <p>Simplify your financial journey with Sathapana Bank</p>
+                    </div>
+                </div>
+            <!-- end of text after icon hero -->
+
+                <!-- class hero section img -->
+                <div class="container" style="padding-bottom: 8rem;">
+                    <!-- first row -->
+                    <div class="row">
+                        <!-- colum ti 1 -->
+                        <div class="col-4">
+                            <a href="#">
+                                <img src="IMG Src/PIC Src/hero-Saving-account.png" alt="">
+                                <p>Savings Account</p>
+                            </a>
+                        </div>
+                        <!-- colum ti 2 -->
+                        <div class="col-4">
+                            <a href="#">
+                                <img src="IMG Src/PIC Src/hero-home-loan.png" alt="">
+                                <p>Flexi Housing loan</p>
+                            </a>
+                        </div>
+                        <!-- colum ti 3 -->
+                        <div class="col-4">
+                            <a href="#">
+                                <img  src="IMG Src/PIC Src/hero-POS.png" alt="">
+                                <p>Merchant Payment Solutions</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- second row -->
+                    <div class="row">
+                        <!-- colum ti 1 -->
+                        <div class="col-6">
+                            <a href="#">
+                                <img src="IMG Src/PIC Src/hero-visa-cards.png" alt="">
+                                <p>Sathapana Cards</p>
+                            </a>
+                        </div>
+                        <!-- colum ti 2 -->
+                        <div class="col-6">
+                            <a href="#">
+                                <img src="IMG Src/PIC Src/hero-business-loan.png" alt="">
+                                <p>Business Loan</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of  class hero section1 img -->
+        </div>
+    </div>
+    <!-- hero section 1 end -->
+
+    <!-- hero section 2 -->
+    <div class="container-fluid">
+        <!-- class text 1 hero section ti 2 -->
+        <div class="container">
+            <div class="hero-text" style="word-spacing: 10;">
+                <span style="color: #60a3e6;">WOMEN IN</span><span style="color: #093B7D;"> BUSINESS</span>
+                <p style="color: #5E5E5E;word-spacing: 1;">Supporting Cambodian women in the Small and Medium Enterprise (SME) segment​​​​​​​</p>
+            </div>
+        </div>
+        <!-- done of text hero section 2 -->
+        <!-- class row ti 1 hero section 2 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img style="height: 50rem; margin-left: -20rem; border-radius: 20px;" src="IMG Src/PIC Src/group-of-business-woman-meeting-in-a-cafe-and-usin-2022-01-18-23-33-43-utc.jpg">
+                </div>
+                <div class="col-4">
+                    <div class="hero-text" style="margin-left: -25rem; word-spacing: 10;">
+                        <span style="color: #5E5E5E;">“ EMPOWERING  WOMEN<br>&emsp;WITH SATHAPANA</span> <br>
+                        <span style="color: #60a3e6;">&emsp;WOMEN IN BUSINESS<br>&emsp;PROGRAMME</span>
+                    </div>
+                    <button class="button-text"><P>LEARN MORE</P></button>
+                </div>
+            </div>
+        </div>
+        <!-- done class row ti 1 hero section 2 -->
+
+        <!-- class row ti 2 hero section 2 -->
+        <div class="container" style="margin-top: 20;">
+            <!-- class text ti row ti 2 hero section 2   -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-text" style="word-spacing: 10;">
+                        <span style="color: #60a3e6;">GIVING BACK</span><span style="color: #093B7D;"> TO SOCIETY</span>
+                        <p style="color: #5E5E5E; word-spacing: 1;">Making a difference in the community we serve</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <a href="#">
+                        <img style="border-radius: 30px; width: 100%;" src="IMG Src/PIC Src/donation-give-back-to-society.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <a href="#">
+                        <img style="border-radius: 30px; width: 100%;" src="IMG Src/PIC Src/donation-sathapana-care.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-text" style="word-spacing: 10;">
+                        <span style="color: #60a3e6;">BANK WITH</span><span style="color: #093B7D;"> SATHAPANA</span>
+                        <p style="color: #5E5E5E; word-spacing: 1;">Discover how we can make a difference</p>
+                    </div>
+                </div>
+            </div>
+            <div class="res-scroll d-flex justify-content-between gap-3">
+                <div class="col-4 res-scroll1"  style="text-align: center; color: #093B7D;">
+                        <img style="height: 28rem; border-radius: 30px;" src="IMG Src/PIC Src/We-provide-the-best-full-banking-services-throughout-cambodia-.jpg" alt="">
+                        <p>The best full banking services throughout Cambodia</p>
+                </div>
+                <div class="col-4 res-scroll1" style="text-align: center; color: #093B7D;">
+                        <img style="height: 28rem;" src="IMG Src/PIC Src/image-18-(1).png" alt="">
+                        <p>Over 170 branches across Cambodia</p>
+                </div>
+                <div class="col-4 res-scroll1"  style="text-align: center; color: #093B7D;">
+                        <img style="height: 28rem;" src="IMG Src/PIC Src/Atm-copy.png" alt="">
+                        <p>More than 360 ATMs across Cambodia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero section 2  end-->
+    <!-- hero section 3 -->
+    <div class="container-fluid" style="background-color: #093B7D;">
+        <div class="container">
+            <div class="hero-text" style="padding-top: 4rem; line-height: 3rem;">
+                <span style="color: #60a3e6;">PROMOTION</span>
+                <P>Get more value with us</P>
+            </div>
+        </div>
+        <div class="container">
+            <div class="promo">
+                <img src="/IMG Src/PIC Src/pro1.jpg">
+                <img src="/IMG Src/PIC Src/pro-2.png">
+                <img src="/IMG Src/PIC Src/pro-3.png">
+            </div>
+            <button class="button-text" style="margin: 5rem 0 ;"><P>VIEW ALL</P></button>
+        </div>
+    </div>
+    <!-- end hero section 3 -->
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <!-- fonter-main row -->
+            <div class="row res-footer">
+                <!-- colum ti 1  -->
+                <div class="col-3 left-footer">
+                    <div class="row footer-logo">
+                        <img src="/IMG Src/PIC Src/sathapana-footer-logo.png" alt="">
+                    </div>
+                    <div class="row footer-media mt-2">
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <!-- facebook -->
+                            <a href="#"><img src="IMG Src/Logo Src/sathapana-fb-icon.png" alt=""></a>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <!-- instagram -->
+                            <a href="#"><img src="/IMG Src/Logo Src/sathapana-linkedin-icon.png" alt=""></a>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <!-- youtube -->
+                            <a href="#"><img src="IMG Src/Logo Src/sathapana-youtube-icon.png" alt=""></a>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <!-- tiktok -->
+                            <a href="#"><img src="/IMG Src/Logo Src/sathapana-tiktok-icon.png" alt=""></a>
+                        </div>
+                        <div class="row">
+                        <div class="col-6 ft-img d-flex justify-content-center align-items-center">
+                            <a href="#"><img src="IMG Src/Logo Src/2020-Q2-ComplianceBadge-PCIPIN.png" alt=""></a>
+                        </div>
+                        <div class="col-6 ft-img d-flex justify-content-center align-items-center">
+                            <a href="#"><img src="IMG Src/Logo Src/sisa-logo.png" alt=""></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- footer row ti 2  -->
+                    <!-- footer row ti 2 done -->
+                </div>
+                <!-- column ti 1 done -->
+                <div class="col-9">
+                    <div class="row  right-footer">
+                        <!-- colum ti 2 -->
+                            <div class="col-3 res-width">
+                                <ul class="ft-col-1">
+                                    <li><a href="#"><span class="ft-col-1-size-font-span" >Banking Service</span></a></li>
+                                    <li><a href="#"></a><p class="ft-col-1-size-font">Personal</p></li>
+                                    <li><a href="#"></a><p class="ft-col-1-size-font">Business</p></li>
+                                    <li><a href="#"></a><p class="ft-col-1-size-font">Digital</p></li>
+                                    <li><a href="#"></a><p class="ft-col-1-size-font">Cash Management</p></li>
+                                </ul>
+                            </div>
+                            <!-- colum ti 2 done -->
+                            <!-- colum ti 3 -->
+                            <div class="col-3 res-width">
+                                <ul class="ft-col-1">
+                                    <li class="ft-col-1-text" ><a href="#"><span class="ft-col-1-size-font-span" >Explore Sathapana</span></a></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >About Us</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Career</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Locator</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Calculator</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >CRS</p></li>
+                                </ul>
+                            </div>
+                            <!-- colum ti 3 done -->
+                            <!-- colum ti 4 -->
+                            <div class="col-3 res-width">
+                                <ul class="ft-col-1"> 
+                                    <li class="ft-col-1-text" ><a href="#"><span class="ft-col-1-size-font-span" >Investor Relations</span></a></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Annual Report</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Audited Finacial Report</p></li>
+                                    <li class="ft-col-1-text" ><a href="#"></a><p class="ft-col-1-size-font" >Financial Statement</p></li>
+                                </ul>
+                            </div>
+                            <!-- colum ti 4 done -->
+                            <!-- colum ti 5 -->
+                            <div class="col-3 res-width">
+                                <ul class="ft-col-1">
+                                    <li class="ft-col-1-text"><a href="#"><span class="ft-col-1-size-font-span" >More Information</span></a></li>
+                                    <li class="ft-col-1-text"><a href="#"></a><p class="ft-col-1-size-font" >FAQ&emsp;Contact US</p></li>
+                                    <li class="ft-col-1-text"><a href="#"></a><p class="ft-col-1-size-font" >Support Award & Recognition</p></li>
+                                    <li class="ft-col-1-text"><a href="#"></a><p class="ft-col-1-size-font" >Sitemap&emsp;Privacy Policy</p></li>
+                                    <li class="ft-col-1-text"><a href="#"></a><p class="ft-col-1-size-font" >Cookie&emsp;Public Holiday</p></li>
+                                </ul>
+                            </div>
+                            <!-- colum ti 5 done -->
+                            <div class="input-footer">
+                                <div class="text-footer">
+                                    <span style="color: #60a3e6;"><h2>Subscribe Newsletter</h2></span>
+                                </div>
+                                <div class="search-footer d-flex">
+                                    <input type="text" placeholder="EnterEmailHere">
+                                    <button class="button-search">SUBMIT</button>    
+                                </div>
+                            </div>
+                            <!-- footer-main row done -->
+                        </div>
+                    </div>
+                </div>
+                <div class="end-class mt-lg-5">
+                    <p style="color: white;">All rights reserved © 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end  footer -->
+</body>
+<script>
+    const searchicon = document.getElementById("search-icon");
+    const searchba = document.getElementById("search");
+    searchicon.addEventListener("click", function(){
+        searchba.style.display = searchba.style.display === "block" ? "none":"block";
+    });
+</script>
+<!-- <script>
+    function search(){
+        document.getElementById("search-icon").style.display = "block";
+    }
+</script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
